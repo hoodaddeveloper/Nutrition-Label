@@ -11,15 +11,15 @@ body {
 }
 
 .label {
-  border: 2px solid black;
   width: 270px;
-  margin: 20px auto;
   padding: 0 7px;
+  margin: 20px auto;
+  border: 2px solid black;
 }
 
 header h1 {
-  text-align: center;
   margin: -4px 0;
+  text-align: center;
   letter-spacing: 0.15px
 }
 
@@ -28,9 +28,9 @@ p {
 }
 
 .divider {
-  border-bottom: 1px solid #888989;
-  margin: 2px 0;
   clear: right;
+  margin: 2px 0;
+  border-bottom: 1px solid #888989;
 }
 
 .bold {
@@ -45,9 +45,10 @@ p {
   height: 10px;
 }
 
-.lg, .md {
-  background-color: black;
+.lg,
+.md {
   border: 0;
+  background-color: black;
 }
 
 .md {
@@ -59,8 +60,8 @@ p {
 }
 
 .calories-info h1 {
-  margin: -5px -2px;
   overflow: hidden;
+  margin: -5px -2px;
 }
 
 .calories-info span {
@@ -81,6 +82,6 @@ p {
 }
 
 .note {
-  font-size: 0.6rem;
   margin: 5px 0;
+  font-size: 0.6rem;
 }
